@@ -32,6 +32,7 @@
     <link rel="stylesheet" type="text/css" href="<?= base_url();?>/assets/css/vendors/slick-theme.css"/>
     <!-- App css -->
     <link rel="stylesheet" href="<?= base_url();?>/assets/css/style.css"/>
+    <link rel="stylesheet" href="<?= base_url();?>/assets/css/custom.css"/>
     <link id="color" rel="stylesheet" href="<?= base_url();?>/assets/css/color-1.css" media="screen"/>
   </head>
   <body>
@@ -133,14 +134,14 @@
                 <i class="icon-world fa-lg"> </i>
                   <h6 class="f-w-600">Websites  </h6><i class="iconly-Arrow-Right-2 icli"></i></a>
                 <ul class="sidebar-submenu">
-                  <li> <a href="general-widget.html">List</a></li>
-                  <li><a href="chart-widget.html">Keywords</a></li>
+                  <li> <a href="<?= base_url();?>admin/websites/index">List</a></li>
+                  <li><a href="<?= base_url();?>admin/websites/keywords">Keywords</a></li>
                 </ul>
               </li>
               <li class="sidebar-list"> 
-                <a class="sidebar-link" href="<?= base_url();?>admin/withdrawals">
+                <a class="sidebar-link" href="<?= base_url();?>admin/ads">
                     <i class="icon-announcement fa-lg"> </i>
-                    <h6 class="f-w-600">Campaigns  </h6>
+                    <h6 class="f-w-600">Ads  </h6>
                 </a>
               </li>
               <li class="sidebar-list"> 
@@ -150,25 +151,25 @@
                 </a>
               </li>
               <li class="sidebar-list"> 
-                <a class="sidebar-link" href="<?= base_url();?>admin/withdrawals">
+                <a class="sidebar-link" href="<?= base_url();?>admin/deposits">
                     <i class="icon-credit-card fa-lg"> </i>
                     <h6 class="f-w-600">Deposits  </h6>
                 </a>
               </li>
               <li class="sidebar-list"> 
-                <a class="sidebar-link" href="#<?= base_url();?>admin/dashboard">
+                <a class="sidebar-link" href="<?= base_url();?>admin/reports">
                     <i class="icon-pie-chart fa-lg"> </i>
                     <h6 class="f-w-600">Reports  </h6>
                 </a>
               </li>
               <li class="sidebar-list"> 
-                <a class="sidebar-link" href="#<?= base_url();?>admin/dashboard">
+                <a class="sidebar-link" href="<?= base_url();?>admin/pages/index">
                 <i class="icon-file fa-lg"> </i>
                 <h6 class="f-w-600">Pages  </h6>
                 </a>
               </li>
               <li class="sidebar-list"> 
-                <a class="sidebar-link" href="#<?= base_url();?>admin/dashboard">
+                <a class="sidebar-link" href="<?= base_url();?>admin/tickets/index">
                 <i class="icon-headphone-alt fa-lg"> </i>
                 <h6 class="f-w-600">Support Ticket  </h6>
                 </a>

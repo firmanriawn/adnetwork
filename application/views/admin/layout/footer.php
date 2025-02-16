@@ -49,6 +49,8 @@
 <!-- custom script -->
 <script src="<?= base_url(); ?>/assets/js/script.js"></script>
 <script src="<?= base_url(); ?>/assets/js/data/chart.js"></script>
+<script src="<?= base_url(); ?>/assets/js/data/custom.js"></script>
+
 </body>
 
 </html>
