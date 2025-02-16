@@ -27,6 +27,7 @@
     <!-- Whether Icon css-->
     <link rel="stylesheet" type="text/css" href="<?= base_url();?>/assets/css/vendors/weather-icons/weather-icons.min.css"/>
     <link rel="stylesheet" type="text/css" href="<?= base_url();?>/assets/css/vendors/scrollbar.css"/>
+    <link rel="stylesheet" type="text/css" href="<?= base_url();?>/assets/css/vendors/datatables.css">
     <link rel="stylesheet" type="text/css" href="<?= base_url();?>/assets/css/vendors/slick.css"/>
     <link rel="stylesheet" type="text/css" href="<?= base_url();?>/assets/css/vendors/slick-theme.css"/>
     <!-- App css -->
@@ -122,8 +123,8 @@
                   <i class="icon-user fa-lg"> </i>
                   <h6 class="f-w-600">Users  </h6><i class="iconly-Arrow-Right-2 icli"></i></a>
                 <ul class="sidebar-submenu">
-                  <li> <a href="general-widget.html">Publisher</a></li>
-                  <li><a href="chart-widget.html">Advertiser</a></li>
+                  <li> <a href="<?= base_url();?>admin/users/publisher">Publisher</a></li>
+                  <li><a href="<?= base_url();?>admin/users/advertiser">Advertiser</a></li>
                 </ul>
               </li>
               <li class="sidebar-list"> 

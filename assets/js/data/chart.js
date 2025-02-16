@@ -114,6 +114,7 @@ var options4 = {
     ],
 };
 
+// line chart
 var options5 = {
     chart: {
         type: "line",

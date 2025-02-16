@@ -32,31 +32,23 @@
 <!-- apex-->
 <script src="<?= base_url(); ?>/assets/js/chart/apex-chart/apex-chart.js"></script>
 <script src="<?= base_url(); ?>/assets/js/chart/apex-chart/stock-prices.js"></script>
-<!-- page_apex-->
-<script src="<?= base_url(); ?>/assets/js/data/chart.js"></script>
 <!-- scrollbar-->
 <script src="<?= base_url(); ?>/assets/js/scrollbar/simplebar.js"></script>
 <script src="<?= base_url(); ?>/assets/js/scrollbar/custom.js"></script>
 <!-- slick-->
 <script src="<?= base_url(); ?>/assets/js/slick/slick.min.js"></script>
 <script src="<?= base_url(); ?>/assets/js/slick/slick.js"></script>
-<!-- data_table-->
-<script src="<?= base_url(); ?>/assets/js/js-datatables/datatables/jquery.dataTables.min.js"></script>
-<!-- page_datatable-->
-<script src="<?= base_url(); ?>/assets/js/js-datatables/datatables/datatable.custom.js"></script>
-<!-- page_datatable1-->
-<script src="<?= base_url(); ?>/assets/js/js-datatables/datatables/datatable.custom1.js"></script>
-<!-- page_datatable-->
-<script src="<?= base_url(); ?>/assets/js/datatable/datatables/datatable.custom.js"></script>
+<!-- datatable-->
+<script src="<?= base_url(); ?>/assets/js/datatable/datatables/jquery.dataTables.min.js"></script>
+<script src="<?= base_url(); ?>/assets/js/data/datatables.js"></script>
+
 <!-- tilt-->
 <script src="<?= base_url(); ?>/assets/js/animation/tilt/tilt.jquery.js"></script>
 <!-- page_tilt-->
 <script src="<?= base_url(); ?>/assets/js/animation/tilt/tilt-custom.js"></script>
-<!-- dashboard_1-->
-<script src="<?= base_url(); ?>/assets/js/dashboard/dashboard_1.js"></script>
 <!-- custom script -->
 <script src="<?= base_url(); ?>/assets/js/script.js"></script>
-
+<script src="<?= base_url(); ?>/assets/js/data/chart.js"></script>
 </body>
 
 </html>
