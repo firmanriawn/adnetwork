@@ -180,9 +180,9 @@
                 <i class="icon-settings fa-lg"> </i>
                 <h6 class="f-w-600">Settings  </h6><i class="iconly-Arrow-Right-2 icli"></i></a>
                 <ul class="sidebar-submenu">
-                  <li> <a href="general-widget.html">General</a></li>
-                  <li><a href="chart-widget.html">Payment</a></li>
-                  <li><a href="chart-widget.html">Winthdrawal</a></li>
+                  <li> <a href="<?= base_url();?>admin/settings/general">General</a></li>
+                  <li><a href="<?= base_url();?>admin/settings/payment">Payment</a></li>
+                  <li><a href="<?= base_url();?>admin/settings/Winthdrawal">Winthdrawal</a></li>
                 </ul>
               </li>
             </ul>
