@@ -29,9 +29,6 @@
 <script src="<?= base_url(); ?>/assets/js/height-equal.js"></script>
 <!-- config-->
 <script src="<?= base_url(); ?>/assets/js/config.js"></script>
-<!-- apex-->
-<script src="<?= base_url(); ?>/assets/js/chart/apex-chart/apex-chart.js"></script>
-<script src="<?= base_url(); ?>/assets/js/chart/apex-chart/stock-prices.js"></script>
 <!-- scrollbar-->
 <script src="<?= base_url(); ?>/assets/js/scrollbar/simplebar.js"></script>
 <script src="<?= base_url(); ?>/assets/js/scrollbar/custom.js"></script>
@@ -48,7 +45,6 @@
 <script src="<?= base_url(); ?>/assets/js/animation/tilt/tilt-custom.js"></script>
 <!-- custom script -->
 <script src="<?= base_url(); ?>/assets/js/script.js"></script>
-<script src="<?= base_url(); ?>/assets/js/data/chart.js"></script>
 <script src="<?= base_url(); ?>/assets/js/data/custom.js"></script>
 
 </body>
